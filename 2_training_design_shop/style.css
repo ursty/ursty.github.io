@@ -1,0 +1,137 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+#shop{
+    width: 100vw;
+    height: 100vh;
+    background: #28232A;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#logo{
+    width: 20%;
+    height: 10%;
+    background-color: #D9D9D9;
+    position: absolute;
+    width: 180px;
+    height: 59px;
+    left: 40px;
+    top: 37px;
+}
+
+#navbar{
+    width: 40%;
+    height: 10%;
+    background-color: #BD8140;
+    position: absolute;
+    width: 695px;
+    height: 59px;
+    left: 40px;
+    top: 117px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#menu{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 1241px;
+    top: 37px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: right;
+    color: white;
+}
+
+
+#main_img{
+    width: 100vw;
+    height: 30vh;
+    /*border: 1px solid #000000;*/
+}
+
+#main_img1{
+    width: 100%;
+    height: 30%;
+    left: 0px;
+    top: 257px;
+    background-image: url(./images/dashboard.jpg);
+    position: fixed;
+    object-fit: cover;
+    background-attachment: scroll, local;
+}
+
+#car{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+#car1{
+    width: 40%;
+    height: 40%;
+    /*border: solid 2px white;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#car1 .img1{
+    width: 60%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+#car1 .img2{
+    width: 20%;
+    height: 30%;
+    object-fit: cover;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
+#car2{
+    width: 40%;
+    height: 40%;
+    /*border: solid 2px white;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#car2 .img1{
+    width: 60%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+#car2 .img2{
+    width: 20%;
+    height: 30%;
+    object-fit: cover;
+    margin-right: 50%;
+    margin-top: -5%;
+}
+
+.btn{
+    width: 30%;
+    height: 10%;
+    border-radius: 20%;
+    background-color: #D9D9D9;
+    color: #BD8140
+}
